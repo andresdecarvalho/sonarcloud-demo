@@ -21,3 +21,20 @@ public class DemoRestController {
 	}
 
 }
+
+@RestController
+public class DemoRestController {
+	
+	@RequestMapping(value="/api/v1,0/capitalize")
+	public ResponseEntity<String> capitalize(@RequestParam("test") String text){
+		
+		String capital = text.toUpperCase();
+		
+		String country =
+		String country =
+			
+		return ResponseEntity.ok(capital);
+		
+	}
+
+}
