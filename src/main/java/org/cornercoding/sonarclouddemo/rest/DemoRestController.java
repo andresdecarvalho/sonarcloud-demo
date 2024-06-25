@@ -13,6 +13,7 @@ public class DemoRestController {
 		
 		String capital = text.toUpperCase();
 		//String country = "Brazil";
+		String country =;
 		return ResponseEntity.ok(capital);
 		
 	}
